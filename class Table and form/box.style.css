@@ -1,0 +1,80 @@
+body{background-color: rgb(14, 191, 191);
+
+}
+.common{
+    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    background-image: url(sunset.jpg);
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+
+
+.left{  border: 1px solid black;
+    width: 70px;
+    height: 30px;
+    background-color: brown;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+}
+
+.right{
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+background-color: chocolate;
+position: fixed;
+left: 730px;
+top: 60px;
+
+}
+
+
+.middle{
+    border: 1px solid black;
+    width: 350px;
+    height: 150px;
+    background-color: coral;
+    position: relative;
+    left: 130px;
+    top: 80px;
+}
+
+
+.left2 {
+    border: 1px solid black;
+    width: 180px;
+    height: 50px;
+    background-color: aquamarine;
+    position: relative;
+    left: 15px;
+    top: 140px;
+}
+
+
+.down{
+    border: 1px solid black;
+    width: 180px;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    left: 220px;
+    top: 90px;
+}
+
+
+.right2{
+    border: 1px solid black;
+    width: 170px;
+    height: 50px;
+    background-color: blueviolet;
+    position: relative;
+    left: 420px;
+    top: 40px;
+
+}

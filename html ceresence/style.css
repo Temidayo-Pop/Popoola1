@@ -1,0 +1,42 @@
+
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    font-family: aerial;
+    display: inline;
+}
+nav ul {
+    align-items: center;
+    list-style-type: lower-roman;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+nav ul li{
+    padding:30px;
+}
+nav ul li a {
+    color:rgb(red);
+    text-decoration:dotted;
+}
+.logo{
+    font-weight: bold;
+    font: size 1.2em;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+/*navigatiion links on the right*/
+.nav-link a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+}

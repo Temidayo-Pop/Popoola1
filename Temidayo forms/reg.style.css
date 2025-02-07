@@ -1,0 +1,56 @@
+*{ 
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: darkslategray;
+    background-position: center;
+
+
+}
+
+form{
+    margin: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 60%;
+    background: gold;
+   
+}
+
+input{
+    margin: 4px;
+    padding: 8px 0;
+    border: none;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    background-color: gold;}
+
+ h2{
+    text-align: center;
+}
+
+input[type=text]{
+    border-bottom: 1px solid black;
+    margin: 10px;
+width: 90%;
+}
+
+hr{
+    border:1px solid black;
+}
+
+button[type=submit]{
+    width:90%;
+    height: 30px;
+    border-radius: 25px;
+    background-color: khaki;
+    border: none;
+    cursor: cell;
+}
